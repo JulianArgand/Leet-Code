@@ -2,14 +2,16 @@ class Solution {
 public:
     bool checkPerfectNumber(int num) {
        
-       int perfect[] = {6, 28, 496, 8128, 33550336};
+      int perfect[] = {6, 28, 496, 8128, 33550336};
 
-    for (int x : perfect)
+for (int x : perfect)
+{
+    if (x == num)
     {
-        if (x == num)
-            return true;
+        return true;
     }
+}
 
-    return false;
+return false;
     }
 };
