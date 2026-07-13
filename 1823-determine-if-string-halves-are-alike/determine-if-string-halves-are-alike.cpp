@@ -18,7 +18,6 @@ public:
             {
                 count2 ++;
             }
-
         }
 
     if(count1 != count2)
