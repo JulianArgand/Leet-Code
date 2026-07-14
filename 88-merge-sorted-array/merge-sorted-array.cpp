@@ -13,6 +13,6 @@ public:
         for (int i = 0; i < m + n; i++) {
             nums1[i] = ans[i];
         }
-       // return nums1;
+      
     }
 };
