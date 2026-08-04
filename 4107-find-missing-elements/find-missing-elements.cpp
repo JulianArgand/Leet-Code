@@ -5,6 +5,7 @@ public:
         int first = nums[0];
         int last = nums[nums.size()-1];
         int  j = 0;
+        int k = 0;
         vector<int> ans;
         for(int i = first; i<last; i++)
         {
