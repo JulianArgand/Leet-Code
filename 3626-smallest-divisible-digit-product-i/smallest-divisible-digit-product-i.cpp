@@ -13,7 +13,10 @@ public:
                 prod *= x%10;
                 x = x/10;
             }
-            if(prod%t == 0) break;
+            if(prod%t == 0) 
+            {
+            break;
+            }
             ans++;
         }
         return ans;
