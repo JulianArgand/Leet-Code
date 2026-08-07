@@ -13,6 +13,7 @@ public:
             digits[i] = 0;
         }
         
+        
         vector<int> result(n + 1, 0);
         result[0] = 1;
         return result;
