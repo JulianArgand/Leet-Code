@@ -11,6 +11,7 @@ public:
                 nz = true;
             }
         }
+        
         if(txor != 0)
         {
             return nums.size();
