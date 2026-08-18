@@ -2,7 +2,9 @@ class Solution {
 public:
     int longestSubsequence(vector<int>& nums) {
         int txor = 0;
+        
         bool nz = false;
+
         for(int n : nums)
         {
             txor ^= n;
