@@ -11,11 +11,13 @@ public:
                 nz = true;
             }
         }
-        
+
         if(txor != 0)
         {
             return nums.size();
         }
+
+        
         if(nz)
         {
             return nums.size() - 1;
