@@ -28,8 +28,6 @@ public:
                 }
             }
         }
-
-        
         if(total % 2 == 0) 
         {
             int mid1 = total/2 - 1;
